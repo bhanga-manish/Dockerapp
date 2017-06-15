@@ -1,7 +1,7 @@
 FROM alpine:3.1
 
 # Update
-RUN apk add --update python py-pip
+RUN apk add --update python3.5 py-pip
 
 # install app dependencies
 RUN pip install flask
